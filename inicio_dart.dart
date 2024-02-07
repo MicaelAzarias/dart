@@ -45,5 +45,18 @@ main() {
     'e tenho $idade de idade e \n'
     '$altura de altura \n'
     'e a minha idade é ou nõo é igual a minha altura? $comparacao');
+
+    String nome1 = 'micael';
+    String nome2 = 'Sergio';
+    String nome3 = 'Silvia';
+
+// faz dessa forma para saber o que vai entrar nessa lista.
+    List<String> lista_nomes = ['Micael', 'Sergio', 'Silvia']; //lsita vazia para não precisar criar varios nomes ou ago assim
+
+    print(lista_nomes[0]); // com o colchetes serve para eu escolher um nome especifico na lista, obvio começa do zero. 
+    print(lista_nomes[2]);
+
+
+    print(lista_nomes.Length); // da para fazer alfumas funções na lista 
 }
 
