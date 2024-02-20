@@ -1,17 +1,22 @@
 main() {
 
-    int idade = 22; //para numeors interiros 
 
+// no começo de cada variavel seja ela double bool ou int string, eu poderia ter colocado VAR que o dart iria indentificar de qual eu estava falando igual ao exemplo.
+    var meu_ap = 1411
+    int idade = 22; //para numeros interiros 
+// mas não é uma boa pratica pois deixa mais pesado o sistema 
     double altura = 1.78;
-    double numeros = 780000000;  // para numeros fracionados usa o double igual ao float
+    var numeros = 780000000;  // para numeros fracionados usa o double igual ao float
     double numero = 780e6;
 
-    bool geek = true; // para verdadeiro ou falso usa o booleans o bool 
+    var geek = true; // para verdadeiro ou falso usa o booleans o bool 
     bool comparacao = (idade == altura); // aqui ele faz uma comparação entre elas para ver se são iguais ou não
 
-    String nome = 'Micael'; // aqui é para usar a string igual ao str, lembrar de que a String aqui é com 'S' maiusculo 
-    String apelido = ' Mica';
 
+// se eu coloco o const no começo da string, ele não vai conseguir mais ser auterada 
+    const String nome = 'Micael'; // aqui é para usar a string igual ao str, lembrar de que a String aqui é com 'S' maiusculo 
+    final String apelido; // serve para eu poder mexer no treco uma vez igual ao exemplo 
+    apelido = 'mica'; // depois que eu defini uma vez não posso mais mudar a definição dele 
 
 //como funciona  o print
     print('vamos aprender isso');
@@ -57,6 +62,8 @@ main() {
     print(lista_nomes[2]);
 
 
-    print(lista_nomes.Length); // da para fazer alfumas funções na lista 
+    print(lista_nomes.Length); // da para fazer alfumas funções na lista
+
+    List<dynamic> micael =[27, 1.78, true, 'Micael Santos Azarias', 'Mica']; // o dynamic entre os <> serve para representar ser algo dinamico.
 }
 
