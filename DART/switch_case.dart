@@ -1,0 +1,1 @@
+https://medium.com/jay-tillu/switch-case-in-dart-136793092e6e
